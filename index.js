@@ -1,10 +1,4 @@
-/*
 
-DOM manipülasyonu (innerText, classList.add, style)
-
-addEventListener() ile buton olaylarını dinleme
-
-localStorage eklenerek son kullanılan süre kaydedilebilir.*/
 let timer;
 let remainingSeconds;
 document.getElementById("start").addEventListener("click", function(){
