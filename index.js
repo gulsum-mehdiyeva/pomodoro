@@ -4,7 +4,7 @@ let remainingSeconds;
 document.getElementById("start").addEventListener("click", function(){
     if(remainingSeconds===undefined||remainingSeconds===0){
     const minutesInput = document.getElementById("minutes").value;
-    remainingSeconds = Math.floor(minutesInput) * 60;
+    remainingSeconds = parseInt(minutesInput) * 60;
     clearInterval(timer);}
     else if(remainingSeconds>0){
         clearInterval(timer);
